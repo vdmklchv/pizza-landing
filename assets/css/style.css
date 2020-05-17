@@ -254,8 +254,9 @@ body{
     }
 
     .header-content-wrapper {
-        width: 50%;
+        width: 75%;
         display: flex;
+        justify-content: space-between;
     }
 
     .logo-block {
@@ -279,6 +280,7 @@ body{
     }
 
     iframe  {
+        margin: 0 auto;
         margin-bottom: 20px;
         width: 100%;
         height: auto;
